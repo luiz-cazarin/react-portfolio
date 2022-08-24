@@ -46,8 +46,11 @@ const Contact = () => {
           <article className="contact__option">
             <GrLinkedinOption className="contact__option-icon" />
             <h4>Linkedin</h4>
-            <h5>Luiz Claudio</h5> 
-            <a href="https://www.linkedin.com/in/luiz-claudio-cazarin/" target="_blank">
+            <h5>Luiz Claudio</h5>
+            <a
+              href="https://www.linkedin.com/in/luiz-claudio-cazarin/"
+              target="_blank"
+            >
               Send a message
             </a>
           </article>
