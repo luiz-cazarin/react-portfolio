@@ -1,7 +1,7 @@
 import React from 'react'
 import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
-import {FiDribbble} from 'react-icons/fi'
+import {MdEmail} from 'react-icons/md'
 
 
 const HeaderSocials = () => {
@@ -9,7 +9,7 @@ const HeaderSocials = () => {
     <div className='header__socials'>
         <a href="https://www.linkedin.com/in/luiz-claudio-cazarin/" target="_blank"><BsLinkedin /></a>
         <a href="https://github.com/luiz-cazarin" target="_blank"><FaGithub /></a>
-        <a href="https://dribbble.com/" target="_blank"><FiDribbble /></a>
+        <a href="mailto:cazarin.junior@gmail.com" target="_blank"><MdEmail /></a>
     </div>
   )
 }

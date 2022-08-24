@@ -1,7 +1,7 @@
 import React from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
+import { GrLinkedinOption } from "react-icons/gr";
 import { FaWhatsapp } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
@@ -44,19 +44,19 @@ const Contact = () => {
             </a>
           </article>
           <article className="contact__option">
-            <RiMessengerLine className="contact__option-icon" />
-            <h4>Messenger</h4>
-            <h5>cazarin junior</h5>
-            <a href="https://github.com/luiz-cazarin" target="_blank">
+            <GrLinkedinOption className="contact__option-icon" />
+            <h4>Linkedin</h4>
+            <h5>Luiz Claudio</h5> 
+            <a href="https://www.linkedin.com/in/luiz-claudio-cazarin/" target="_blank">
               Send a message
             </a>
           </article>
           <article className="contact__option">
             <FaWhatsapp className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>+55 61-983017727</h5>
+            <h4>WhatsApp</h4>
+            <h5>+55 (61)98301-7727</h5>
             <a
-              href="https://api.whatsapp.com/send?phone=61983017727"
+              href="https://api.whatsapp.com/send?phone=5561983017727"
               target="_blank"
             >
               Send a message

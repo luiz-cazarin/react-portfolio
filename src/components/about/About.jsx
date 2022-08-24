@@ -21,7 +21,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>+3 Yers Working</small>
+              <small>+2 Yers Working</small>
             </article>
             <article className="about__card">
               <FiUsers className="about__icon" />
@@ -36,16 +36,15 @@ const About = () => {
           </div>
           <div className="about__content">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              Hello, my name is Luiz Claudio, I'm 21 years old and I'm
+              passionate about technology, from an early age I try to understand
+              how everything works, researching and learning on my own, I have
+              experience in startups like full-stack developer, as well as
+              personal and academic projects. These experiences allowed me to
+              develop autonomy in the development of different projects, working
+              in teams using the scrum methodology. I am highly motivated to
+              continue learning and I am looking for an opportunity to
+              contribute to the development of different projects.
             </p>
           </div>
           <a href="#contact" className="btn btn-primary">
