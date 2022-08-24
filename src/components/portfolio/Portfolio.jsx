@@ -1,40 +1,40 @@
 import React from "react";
-import "./portifolio.css";
+import "./portfolio.css";
 import IMG1 from "../../assets/P1.png";
 
-const portifolio = () => {
+const portfolio = () => {
   const data = [
     {
       id: 0,
       image: IMG1,
-      title: "This is a portifolio item title",
+      title: "This is a portfolio item title",
       github: "https://github.com/luiz-cazarin/",
       demo: "https://dribbble.com/",
     },
     {
       id: 1,
       image: IMG1,
-      title: "This is a portifolio item title",
+      title: "This is a portfolio item title",
       github: "https://github.com/luiz-cazarin/",
       demo: "https://dribbble.com/",
     },
     {
       id: 2,
       image: IMG1,
-      title: "This is a portifolio item title",
+      title: "This is a portfolio item title",
       github: "https://github.com/luiz-cazarin/",
       demo: "https://dribbble.com/",
     },
     {
       id: 3,
       image: IMG1,
-      title: "This is a portifolio item title",
+      title: "This is a portfolio item title",
       github: "https://github.com/luiz-cazarin/",
       demo: "https://dribbble.com/",
     },
   ];
   return (
-    <section id="portifolio">
+    <section id="portfolio">
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio__container">
@@ -61,4 +61,4 @@ const portifolio = () => {
   );
 };
 
-export default portifolio;
+export default portfolio;
