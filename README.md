@@ -3,4 +3,4 @@
 Responsive portfolio in react
 
 ### To access the website
-https://react-portfolio-ee3c7.web.app/
+<a target="_blank" href="https://react-portfolio-ee3c7.web.app/">https://react-portfolio-ee3c7.web.app/</a>
