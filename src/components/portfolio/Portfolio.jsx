@@ -1,36 +1,55 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/P1.png";
+import IMG2 from "../../assets/IMG-2.jpg";
+import IMG3 from "../../assets/IMG-3.png";
+import IMG4 from "../../assets/IMG-4.png";
+import IMG5 from "../../assets/IMG-5.png";
+import IMG6 from "../../assets/IMG-6.png";
+import IMG7 from "../../assets/IMG-7.png";
 
 const portfolio = () => {
   const data = [
     {
       id: 0,
-      image: IMG1,
-      title: "This is a portfolio item title",
-      github: "https://github.com/luiz-cazarin/",
-      demo: "https://dribbble.com/",
+      image: IMG7,
+      title: "This portfolio",
+      github: "https://github.com/luiz-cazarin/react-portfolio",
+      demo: "https://github.com/luiz-cazarin/react-portfolio",
     },
     {
       id: 1,
-      image: IMG1,
-      title: "This is a portfolio item title",
-      github: "https://github.com/luiz-cazarin/",
-      demo: "https://dribbble.com/",
+      image: IMG2,
+      title: "Real-time Strategy Game",
+      github: "https://github.com/luiz-cazarin/Jogo-Estrategia-em-Tempo-Real",
+      demo: "https://github.com/luiz-cazarin/Jogo-Estrategia-em-Tempo-Real",
     },
     {
       id: 2,
-      image: IMG1,
-      title: "This is a portfolio item title",
-      github: "https://github.com/luiz-cazarin/",
-      demo: "https://dribbble.com/",
+      image: IMG3,
+      title: "Delivery App",
+      github: "https://github.com/luiz-cazarin/delivery-app",
+      demo: "https://github.com/luiz-cazarin/delivery-app",
     },
     {
       id: 3,
-      image: IMG1,
-      title: "This is a portfolio item title",
-      github: "https://github.com/luiz-cazarin/",
-      demo: "https://dribbble.com/",
+      image: IMG4,
+      title: "Devlearing Web Site",
+      github: "https://github.com/luiz-cazarin/devlearning",
+      demo: "https://dev-learningbr.vercel.app/",
+    },
+    {
+      id: 4,
+      image: IMG5,
+      title: "Portfolio Web Site",
+      github: "https://github.com/luiz-cazarin/portifolio",
+      demo: "https://luiz-cazarin.web.app/",
+    },
+    {
+      id: 5,
+      image: IMG6,
+      title: "Vue Nuxt Project",
+      github: "https://github.com/luiz-cazarin/Vue-Nuxt-Project",
+      demo: "https://github.com/luiz-cazarin/Vue-Nuxt-Project",
     },
   ];
   return (
@@ -46,10 +65,10 @@ const portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
+                <a href={github} className="btn" target="_blank" rel="noreferrer">
                   Github
                 </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
+                <a href={demo} className="btn btn-primary" target="_blank" rel="noreferrer">
                   Live Demo
                 </a>
               </div>

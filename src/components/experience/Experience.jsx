@@ -18,7 +18,7 @@ const Experience = () => {
     },
     {
       title: "Nuxt",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "HTML",
@@ -38,15 +38,15 @@ const Experience = () => {
     },
     {
       title: "TypeScript",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "Bootstrap",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "Tailwind",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "React",
@@ -58,7 +58,7 @@ const Experience = () => {
     },
     {
       title: "MaterialUI",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "Figma",
@@ -66,7 +66,7 @@ const Experience = () => {
     },
     {
       title: "Three.js",
-      level: "Experienced",
+      level: "Intermediary",
     },
   ];
   const backendData = [
@@ -92,11 +92,11 @@ const Experience = () => {
     },
     {
       title: "Spring Boot",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "Docker",
-      level: "Experienced",
+      level: "Basic",
     },
     {
       title: "PostgreSQL",
@@ -104,7 +104,7 @@ const Experience = () => {
     },
     {
       title: "MongoDB",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "CouchDB",
@@ -112,24 +112,21 @@ const Experience = () => {
     },
     {
       title: "Python3",
-      level: "Experienced",
+      level: "Intermediary",
     },
     {
       title: "Flask",
-      level: "Experienced",
+      level: "Basic",
     },
     {
       title: "Linguagem C",
       level: "Experienced",
     },
     {
-      title: "Firebase",
+      title: "Git",
       level: "Experienced",
     },
-    {
-      title: "Heroku",
-      level: "Experienced",
-    },
+
   ];
   return (
     <section id="experience">

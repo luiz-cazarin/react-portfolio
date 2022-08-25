@@ -22,11 +22,14 @@
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
+  word-wrap: break-word;
 }
 
 .contact__option:hover {
+  transform: scale(1.05, 1.05);
   background: transparent;
   border-color: var(--color-primary-variant);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
 .contact__option-icon {
