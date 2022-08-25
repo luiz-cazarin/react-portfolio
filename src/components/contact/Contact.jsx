@@ -39,7 +39,11 @@ const Contact = () => {
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>cazarin.junior@gmail.com</h5>
-            <a href="mailto:cazarin.junior@gmail.com" target="_blank">
+            <a
+              href="mailto:cazarin.junior@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
               Send a message
             </a>
           </article>
@@ -50,6 +54,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/luiz-claudio-cazarin/"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
@@ -61,6 +66,7 @@ const Contact = () => {
             <a
               href="https://api.whatsapp.com/send?phone=5561983017727"
               target="_blank"
+              rel="noreferrer"
             >
               Send a message
             </a>
