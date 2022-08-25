@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../assets/cv.pdf'
+import CV from '../../assets/CV-Luiz.pdf'
 // rafc
 
 const CTA = () => {
