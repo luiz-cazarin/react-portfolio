@@ -1,8 +1,8 @@
 import React from "react";
 import "./header.css";
 import CTA from "./CTA";
-import ME from "../../assets/c1.png";
-// import ME from "../../assets/art.png";
+// import ME from "../../assets/c1.png";
+import ME from "../../assets/art.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
