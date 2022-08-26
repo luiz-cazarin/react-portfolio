@@ -14,9 +14,12 @@
     background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
     display: grid;
     place-items: center;
+    transition: var(--transition);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.3);
 }
 
 .about__me-image {
+    width: 80%;
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
