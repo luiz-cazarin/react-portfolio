@@ -6,6 +6,7 @@ import IMG4 from "../../assets/IMG-4.png";
 import IMG5 from "../../assets/IMG-5.png";
 import IMG6 from "../../assets/IMG-6.png";
 import IMG7 from "../../assets/IMG-7.png";
+import IMG8 from "../../assets/page-coin.png";
 
 const portfolio = () => {
   const data = [
@@ -50,6 +51,13 @@ const portfolio = () => {
       title: "Vue Nuxt Project",
       github: "https://github.com/luiz-cazarin/Vue-Nuxt-Project",
       demo: "https://github.com/luiz-cazarin/Vue-Nuxt-Project",
+    },
+    {
+      id: 5,
+      image: IMG8,
+      title: "Coin Page",
+      github: "https://github.com/luiz-cazarin/Pagina-Coin",
+      demo: "https://luiz-cazarin.github.io/Pagina-Coin/",
     },
   ];
   return (
