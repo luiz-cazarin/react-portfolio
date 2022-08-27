@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./header.css";
 import CTA from "./CTA";
 // import ME from "../../assets/c1.png";
