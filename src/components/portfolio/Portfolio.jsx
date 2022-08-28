@@ -17,7 +17,7 @@ const portfolio = () => {
       image: IMG7,
       title: "This portfolio",
       github: "https://github.com/luiz-cazarin/react-portfolio",
-      demo: "https://github.com/luiz-cazarin/react-portfolio",
+      demo: "https://react-portfolio-ee3c7.web.app/",
     },
     {
       id: 1,
