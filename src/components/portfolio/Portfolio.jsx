@@ -7,6 +7,8 @@ import IMG5 from "../../assets/IMG-5.png";
 import IMG6 from "../../assets/IMG-6.png";
 import IMG7 from "../../assets/IMG-7.png";
 import IMG8 from "../../assets/page-coin.png";
+import IMG9 from "../../assets/scholl.png";
+import IMG10 from "../../assets/devscholl.png";
 
 const portfolio = () => {
   const data = [
@@ -58,6 +60,20 @@ const portfolio = () => {
       title: "Coin Page",
       github: "https://github.com/luiz-cazarin/Pagina-Coin",
       demo: "https://luiz-cazarin.github.io/Pagina-Coin/",
+    },
+    {
+      id: 6,
+      image: IMG9,
+      title: "First project in vue",
+      github: "https://github.com/luiz-cazarin/school-vuetify",
+      demo: "https://github.com/luiz-cazarin/school-vuetify",
+    },
+    {
+      id: 7,
+      image: IMG10,
+      title: "(Quasar) DEVScholl",
+      github: "https://github.com/luiz-cazarin/DEVScholl",
+      demo: "https://github.com/luiz-cazarin/DEVScholl",
     },
   ];
   return (
