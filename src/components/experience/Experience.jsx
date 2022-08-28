@@ -6,15 +6,15 @@ const Experience = () => {
   const frontendData = [
     {
       title: "Vue",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "Vuetify",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "Quasar",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "Nuxt",
@@ -22,11 +22,11 @@ const Experience = () => {
     },
     {
       title: "HTML",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "CSS",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "SASS",
@@ -34,7 +34,7 @@ const Experience = () => {
     },
     {
       title: "JavaScript",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "TypeScript",
@@ -80,7 +80,7 @@ const Experience = () => {
     },
     {
       title: "Axios",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "RESTful",
@@ -88,7 +88,7 @@ const Experience = () => {
     },
     {
       title: "Java",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "Spring Boot",
@@ -100,7 +100,7 @@ const Experience = () => {
     },
     {
       title: "PostgreSQL",
-      level: "Experienced",
+      level: "Advancing",
     },
     {
       title: "MongoDB",
