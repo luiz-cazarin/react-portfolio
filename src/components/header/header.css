@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
+    padding-top: 6rem;
     overflow: hidden;
 }
 
@@ -50,6 +50,25 @@ header {
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
     padding: 3rem 1.5rem 0rem 1.5rem;
+    transition: var(--transition);
+    height: 25rem;
+}
+
+.me-1 {
+    width: 305px;
+    height: 340px;
+    transition: var(--transition);
+}
+
+.me-2 {
+    width: 305px;
+    position: absolute;
+    height: 340px;
+    transition: var(--transition);
+}
+
+.me-2:hover {
+    height: 22rem;
 }
 
 /* scroll down */
@@ -64,6 +83,12 @@ header {
 
 /* MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
+    header {
+        height: 78vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
     header {
         height: 68vh;
     }
