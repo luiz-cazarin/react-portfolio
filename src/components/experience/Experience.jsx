@@ -96,7 +96,7 @@ const Experience = () => {
     },
     {
       title: "Docker",
-      level: "Basic",
+      level: "Intermediary",
     },
     {
       title: "PostgreSQL",
