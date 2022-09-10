@@ -1,0 +1,12 @@
+.work {
+  background-color: white;
+  width: 400px;
+  height: 300px;
+  margin: 0 1rem;
+}
+
+.workExperience__content p {
+  text-align: center;
+  margin: 2rem 0 2.6rem;
+  color: var(--color-light);
+}
