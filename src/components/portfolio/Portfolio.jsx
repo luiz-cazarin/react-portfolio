@@ -9,6 +9,8 @@ import IMG7 from "../../assets/IMG-7.png";
 import IMG8 from "../../assets/page-coin.png";
 import IMG9 from "../../assets/scholl.png";
 import IMG10 from "../../assets/devscholl.png";
+import IMG11 from "../../assets/web-nlw-art.png";
+import IMG12 from "../../assets/nlw-apps.png";
 
 const portfolio = () => {
   const data = [
@@ -74,6 +76,20 @@ const portfolio = () => {
       title: "(Quasar) DEVScholl",
       github: "https://github.com/luiz-cazarin/DEVScholl",
       demo: "https://github.com/luiz-cazarin/DEVScholl",
+    },
+    {
+      id: 8,
+      image: IMG11,
+      title: "[React] NLW WEB Esports",
+      github: "https://github.com/luiz-cazarin/nlw-2022-web",
+      demo: "https://github.com/luiz-cazarin/nlw-2022-web",
+    },
+    {
+      id: 9,
+      image: IMG12,
+      title: "[ReactNative] NLW APP Esports",
+      github: "https://github.com/luiz-cazarin/nlw-2022-mobile-ReactNative",
+      demo: "https://github.com/luiz-cazarin/nlw-2022-mobile-ReactNative",
     },
   ];
   return (
