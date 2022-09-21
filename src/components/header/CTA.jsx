@@ -1,6 +1,6 @@
 import React from 'react'
 // import CV from '../../assets/CV - Luiz claudio Santos Cazarin.pdf'
-import CV2 from '../../assets/CV - Desenvolvedor - Luiz Claudio  S Cazarin Junior.pdf'
+import CV2 from '../../assets/Curriculo - Desenvolvedor - Luiz Claudio.pdf'
 // rafc
 
 const CTA = () => {
