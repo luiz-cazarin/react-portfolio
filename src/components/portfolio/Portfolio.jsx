@@ -11,6 +11,7 @@ import IMG9 from "../../assets/scholl.png";
 import IMG10 from "../../assets/devscholl.png";
 import IMG11 from "../../assets/web-nlw-art.png";
 import IMG12 from "../../assets/nlw-apps.png";
+import IMG13 from "../../assets/pokedex.png";
 
 const portfolio = () => {
   const data = [
@@ -90,6 +91,13 @@ const portfolio = () => {
       title: "[ReactNative] NLW APP Esports",
       github: "https://github.com/luiz-cazarin/nlw-2022-mobile-ReactNative",
       demo: "https://github.com/luiz-cazarin/nlw-2022-mobile-ReactNative",
+    },
+    {
+      id: 10,
+      image: IMG13,
+      title: "[Vue] Pokedex",
+      github: "https://github.com/luiz-cazarin/Vue-Pokedex",
+      demo: "https://github.com/luiz-cazarin/Vue-Pokedex",
     },
   ];
   return (
