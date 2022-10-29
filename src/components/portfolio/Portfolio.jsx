@@ -12,6 +12,7 @@ import IMG10 from "../../assets/devscholl.png";
 import IMG11 from "../../assets/web-nlw-art.png";
 import IMG12 from "../../assets/nlw-apps.png";
 import IMG13 from "../../assets/pokedex.png";
+import IMG14 from "../../assets/listTel.png";
 
 const portfolio = () => {
   const data = [
@@ -53,28 +54,28 @@ const portfolio = () => {
     {
       id: 5,
       image: IMG6,
-      title: "Vue Nuxt Project",
+      title: "[VUE] Nuxt Project",
       github: "https://github.com/luiz-cazarin/Vue-Nuxt-Project",
       demo: "https://github.com/luiz-cazarin/Vue-Nuxt-Project",
     },
     {
       id: 5,
       image: IMG8,
-      title: "Coin Page",
+      title: "[HTML CSS]Coin Page",
       github: "https://github.com/luiz-cazarin/Pagina-Coin",
       demo: "https://luiz-cazarin.github.io/Pagina-Coin/",
     },
     {
       id: 6,
       image: IMG9,
-      title: "First project in vue",
+      title: "[Vuetify] First project",
       github: "https://github.com/luiz-cazarin/school-vuetify",
       demo: "https://github.com/luiz-cazarin/school-vuetify",
     },
     {
       id: 7,
       image: IMG10,
-      title: "(Quasar) DEVScholl",
+      title: "[Quasar] DEVScholl",
       github: "https://github.com/luiz-cazarin/DEVScholl",
       demo: "https://github.com/luiz-cazarin/DEVScholl",
     },
@@ -97,7 +98,14 @@ const portfolio = () => {
       image: IMG13,
       title: "[Vue] Pokedex",
       github: "https://github.com/luiz-cazarin/Vue-Pokedex",
-      demo: "https://github.com/luiz-cazarin/Vue-Pokedex",
+      demo: "https://vue-pokedex-orpin.vercel.app/",
+    },
+    {
+      id: 11,
+      image: IMG14,
+      title: "[Quasar] Lista telefonica",
+      github: "https://github.com/luiz-cazarin/Vue---Quasar-UMD-CRUD",
+      demo: "https://github.com/luiz-cazarin/Vue---Quasar-UMD-CRUD",
     },
   ];
   return (
