@@ -13,6 +13,7 @@ import IMG11 from "../../assets/web-nlw-art.png";
 import IMG12 from "../../assets/nlw-apps.png";
 import IMG13 from "../../assets/pokedex.png";
 import IMG14 from "../../assets/listTel.png";
+import IMG15 from "../../assets/mb-app.png";
 
 const portfolio = () => {
   const data = [
@@ -106,6 +107,13 @@ const portfolio = () => {
       title: "[Quasar] Lista telefonica",
       github: "https://github.com/luiz-cazarin/Vue---Quasar-UMD-CRUD",
       demo: "https://github.com/luiz-cazarin/Vue---Quasar-UMD-CRUD",
+    },
+    {
+      id: 12,
+      image: IMG15,
+      title: "[ReactNative] MB Ticket Sales",
+      github: "https://github.com/luiz-cazarin/MB-ReactNative-App-Eventos",
+      demo: "https://github.com/luiz-cazarin/MB-ReactNative-App-Eventos",
     },
   ];
   return (
