@@ -71,7 +71,7 @@ const portfolio = () => {
       image: IMG9,
       title: "[Vuetify] First project",
       github: "https://github.com/luiz-cazarin/school-vuetify",
-      demo: "https://github.com/luiz-cazarin/school-vuetify",
+      demo: "https://school-vuetify.vercel.app/#/",
     },
     {
       id: 7,
