@@ -7,6 +7,10 @@ import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
+  const getYearOld = () => {
+    const date = new Date();
+    return date.getFullYear() - 2001;
+  }
   return (
     <section id="about">
       <h5>Get To Know</h5>
@@ -27,17 +31,17 @@ const About = () => {
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>+10 Worldwide</small>
+              <small>+100 Worldwide</small>
             </article>
             <article className="about__card">
               <VscFolderLibrary className="about__icon" />
               <h5>Projects</h5>
-              <small>+30 Completed</small>
+              <small>+40 Completed</small>
             </article>
           </div>
           <div className="about__content">
             <p>
-              Hello, my name is Luiz Claudio, I'm 21 years old and I'm
+              Hello, my name is Luiz Claudio, I'm {getYearOld()} years old and I'm
               passionate about technology, from an early age I try to understand
               how everything works, researching and learning on my own, I have
               experience in startups like full-stack developer, as well as
