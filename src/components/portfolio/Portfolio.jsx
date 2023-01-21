@@ -14,6 +14,7 @@ import IMG12 from "../../assets/nlw-apps.png";
 import IMG13 from "../../assets/pokedex.png";
 import IMG14 from "../../assets/listTel.png";
 import IMG15 from "../../assets/mb-app.png";
+import IMG16 from "../../assets/react-blueprint.png";
 
 const portfolio = () => {
   const data = [
@@ -114,6 +115,13 @@ const portfolio = () => {
       title: "[ReactNative] MB Ticket Sales",
       github: "https://github.com/luiz-cazarin/MB-ReactNative-App-Eventos",
       demo: "https://github.com/luiz-cazarin/MB-ReactNative-App-Eventos",
+    },
+    {
+      id: 13,
+      image: IMG16,
+      title: "[React] React challenge - Blueprint",
+      github: "https://github.com/luiz-cazarin/react-challenge-blueprint",
+      demo: "https://react-challenge-blueprint.vercel.app/",
     },
   ];
   return (
