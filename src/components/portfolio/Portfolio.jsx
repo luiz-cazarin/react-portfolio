@@ -44,7 +44,7 @@ const portfolio = () => {
       image: IMG4,
       title: "Devlearing Web Site",
       github: "https://github.com/luiz-cazarin/devlearning",
-      demo: "https://dev-learningbr.vercel.app/",
+      demo: "https://devlearning-teal.vercel.app/",
     },
     {
       id: 4,
